@@ -3,7 +3,7 @@
 В рамках проекту розробляється: 
 - модель бізнес-об'єктів
 
-- @startuml
+@startuml
 entity User <<ENTITY>> #CCFFFF
 entity User.id <<NUMBER>> #FFFFFF
 entity User.username <<TEXT>> #FFFFFF
