@@ -65,7 +65,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 # RESTfull сервіс для управління даними
 
-### Основний файл (app.js)
+#### Основний файл (app.js)
 ```js
 const express = require("express");
 const cors = require("cors");
@@ -92,7 +92,7 @@ app.listen(PORT, () => {
 module.exports = app;
 ```
 
-### Встановлення доступу до бази даних (db.js)
+#### Встановлення доступу до бази даних (db.js)
 ```js
 const mysql = require("mysql2");
 const conn = mysql.createConnection({
